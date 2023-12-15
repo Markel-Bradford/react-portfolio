@@ -1,0 +1,90 @@
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+    color: #eee;
+    font-weight: bold;
+  }
+  form{
+    background: rgba(47,0,128,80%);
+    box-shadow: 0 0 10px 5px;
+    border-radius: .25rem;
+    }
+  .form-group {
+    margin: auto 22px 0 10px;
+    padding: .5rem;
+  }
+  body {
+    font-family: serif;
+    font-size: 20px;
+    background-image: url(binary.png);
+    width: 100%;
+    margin: 0;
+    color: #f5f6f7;
+    }
+  h1 {
+    margin: 2em auto 1em auto;
+    text-align: center;
+  }
+
+  p{
+    margin: 20px 600px 50px 600px ;
+    text-align: center;
+  }
+  form {
+    width: 60vw;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  .input-radio,
+  .input-checkbox {
+    display: inline-block;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  label {
+    display: block;
+    margin: .5em 0;
+  }
+  .descriptive{
+    text-align: left;
+    margin: .5em 0;
+  }
+  input,
+  textarea,
+  select {
+    width: 100%;
+    min-height: 2em;
+  }
+  .container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+  }
+    .submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #000000;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  .input-textarea{
+    border-radius: .25rem;
+  }
+  .submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #00f900;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
+  
