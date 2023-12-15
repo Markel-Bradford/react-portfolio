@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.a8faf259.css",
-    "main.js": "/homepage/static/js/main.de733e8e.js",
-    "static/media/smoke.jpeg": "/homepage/static/media/smoke.af181da4dff475472d54.jpeg",
-    "static/media/purpleblackbg.jpeg": "/homepage/static/media/purpleblackbg.bf047e1eea9e8307966d.jpeg",
-    "static/media/gradient.jpeg": "/homepage/static/media/gradient.83ee99f27929732fd604.jpeg",
-    "index.html": "/homepage/index.html",
-    "main.a8faf259.css.map": "/homepage/static/css/main.a8faf259.css.map",
-    "main.de733e8e.js.map": "/homepage/static/js/main.de733e8e.js.map"
+    "main.css": "/react-portfolio/static/css/main.9bcb4377.css",
+    "main.js": "/react-portfolio/static/js/main.9f3fc4b9.js",
+    "static/media/smoke.jpeg": "/react-portfolio/static/media/smoke.af181da4dff475472d54.jpeg",
+    "static/media/purpleblackbg.jpeg": "/react-portfolio/static/media/purpleblackbg.bf047e1eea9e8307966d.jpeg",
+    "static/media/gradient.jpeg": "/react-portfolio/static/media/gradient.83ee99f27929732fd604.jpeg",
+    "index.html": "/react-portfolio/index.html",
+    "main.9bcb4377.css.map": "/react-portfolio/static/css/main.9bcb4377.css.map",
+    "main.9f3fc4b9.js.map": "/react-portfolio/static/js/main.9f3fc4b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8faf259.css",
-    "static/js/main.de733e8e.js"
+    "static/css/main.9bcb4377.css",
+    "static/js/main.9f3fc4b9.js"
   ]
 }
