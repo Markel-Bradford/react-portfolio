@@ -39,9 +39,9 @@ export default function AboutMe(){
                 <h3 className='titles'>Skills</h3>
             </div>
             <div className='skill-container'>
-            <img className="skill" src="images/HTMLCSSJS.png" alt="HTML CSS and JS Logo" />
-                <img className="skill-1" src="images/VScode.png" alt="VSCode logo" />
-                <img className='skill-1' src='/logo512.png' alt='react logo' />
+            <img className="skill" src="./react-portfolio/images/HTMLCSSJS.png" alt="HTML CSS and JS Logo" />
+                <img className="skill-1" src="./react-portfolio/images/VScode.png" alt="VSCode logo" />
+                <img className='skill-1' src='./react-portfolio//logo512.png' alt='react logo' />
             </div>
         </> 
     );

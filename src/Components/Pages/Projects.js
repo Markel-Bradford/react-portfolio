@@ -12,8 +12,8 @@ export default function Projects(){
                     <div>
                     <h3 className='project-name'>Survey Form: HTML5, CSS</h3>
                         <div className='thumbnail-wrapper'>
-                        <a href="SurveyForm/build-a-survey-form.html">
-                        <img className="thumbnail" src="images/SurveyForm.png" alt="survery form"/>
+                        <a href="./react-portfolio/SurveyForm/build-a-survey-form.html">
+                        <img className="thumbnail" src="./react-portfolio/images/SurveyForm.png" alt="survery form"/>
                         </a> 
                         </div>
                         <p className='information'>My task for this project was to build a functional survey 
@@ -23,8 +23,8 @@ export default function Projects(){
                         all fields on the form and it can be submitted once completed.</p>
                         <h3 className='project-name'>Tribute Page: HTML5, CSS</h3>                        
                         <div className='thumbnail-wrapper'>
-                        <a href="TributePage/SakuraiTributePage.html">
-                        <img className="thumbnail" src="images/tribute.png" alt="Masahiro Sakurai Tribute Page"/>
+                        <a href="./react-portfolio/TributePage/SakuraiTributePage.html">
+                        <img className="thumbnail" src="./react-portfolio/images/tribute.png" alt="Masahiro Sakurai Tribute Page"/>
                         </a>
                         </div>
                         <p className='information'>The objective for this project was to build a trinute page 
@@ -34,8 +34,8 @@ export default function Projects(){
                         favorite game, <i>Super Smash Bros. Melee</i>, for the Nintendo Gamecube.</p>
                         <h3 className='project-name'>Portfolio: HTML5, CSS</h3>                        
                         <div className='thumbnail-wrapper'>
-                        <a href="PortfolioProject/index.html">
-                        <img className="thumbnail" src="images/portfolio.png" alt="My first portfolio"/>
+                        <a href="./react-portfolio/PortfolioProject/index.html">
+                        <img className="thumbnail" src="./react-portfolio/images/portfolio.png" alt="My first portfolio"/>
                         </a>
                         </div>
                         <p className='information'>This was my original portfilio project made using HTML and CSS.

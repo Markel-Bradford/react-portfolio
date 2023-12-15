@@ -12,10 +12,10 @@ export default function Contact(){
             <div className='contact-img'>
             <div className='contact-wrapper'>
         <a href="mailto:markel.bradford94@gmail.com">
-            <img className="icon" src="./images/contact2.jpg" alt="Email me"/>                
+            <img className="icon" src="./react-portfolio//images/contact2.jpg" alt="Email me"/>                
             </a>
          <a href="https://www.linkedin.com/in/markel-bradford-1773a9236">
-            <img className="icon" src="./images/contact1.jpg" alt="My LinkedIn Profile"/>
+            <img className="icon" src="./react-portfolio//images/contact1.jpg" alt="My LinkedIn Profile"/>
             </a>
             </div>
         </div>
