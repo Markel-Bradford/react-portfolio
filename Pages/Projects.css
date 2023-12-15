@@ -1,0 +1,70 @@
+.project-container {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.project-view {
+    font-size: 40px;
+    margin-top: 100px;
+    color: midnightblue;
+}
+
+.thumbnail-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 24px;
+    width: 70%;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+}
+
+.project-name {
+    margin-top: 80px;
+    font-size: 30px;
+}
+
+.information {
+    font-size: 25px;
+    line-height: 3rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 960px) {
+    .information {
+        font-size: 20px;
+      margin-left: 10px;
+      margin-right: 10px;  
+    }
+    
+    .thumbnail {
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 20px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:961px) {
+    .thumbnail {
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    
+}
