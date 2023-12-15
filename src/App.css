@@ -18,7 +18,7 @@
 }
 
 .about-me {
-  background-image: url('/public/images/purpleblackbg.jpeg');
+  background-image: url('react-portfolio/public/images/purpleblackbg.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
