@@ -1,0 +1,57 @@
+video {
+    /*code extended video to full screen*/
+    object-fit:cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.hero-btns {
+    position: relative;
+    margin-top: 32px;
+}
+
+.hero-container > h1 {
+    position: relative; /*place element on top of video*/
+    display: flex;
+    color: #fff;
+    font-size: 100px;
+    margin-top: 200px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen  and (max-width: 960px) {
+    .hero-container > h1 {
+        font-size: 70px;
+        margin-top: 200px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .hero-container > h1 {
+        font-size: 50px;
+        margin-top: 200px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

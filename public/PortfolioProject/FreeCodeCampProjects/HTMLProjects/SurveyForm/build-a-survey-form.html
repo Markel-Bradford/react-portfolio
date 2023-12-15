@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Development Careers Survey Form</title>
+    <link rel="stylesheet" href="surveyformstylesheet.css" />
+  </head>
+   <body>
+    <div class="container">
+      <header class="header">
+      <h1 id="title">Development Careers Survey Form</h1>
+      <p id="description">Thank you for choosing our Code Camp! We would love to learn about you and you goals to assist your developer career journey. Please complete the survey below to get started!</p>
+      </header>
+   <form id='survey-form'>
+    <div class="form-group">
+     <label id="name-label" for="name">Name</label>
+         <input id="name" name="name" type="text" class="input-textarea" placeholder="Enter your name" required />
+         </div>
+         <div class="form-group">
+       <label id="email-label" for="email">Email</label>
+        <input id="email" name="email" type="email" class="input-textarea" Placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+       <label id="number-label" for="number">Age (optional)</label>
+        <input id="number" name="age" type="number" min="18" max="120" class="input-textarea" Placeholder="Age" />
+     </div>
+       <div class="form-group">
+        <p class="descriptive"> What is your current skill level? </p>
+        <select id="dropdown" name="role" required>
+            <option disabled selected value>(Select current skill level)</option>
+            <option value="1">Beginner</option>
+            <option value="2">Entry Level
+            </option>
+            <option value="3">Mid Level</option>
+            <option value="4">Senior Level</option>
+        </select>
+     </div>
+     <div class="form-group">
+      <p class="descriptive">What is your desired role?</p>
+     <label for="front-end">
+       <input id="front-end" name="career-type" type="radio" value="front-end" class="input-radio" /> Front-end Developer 
+     </label>
+     <label for="back-end">
+       <input id="back-end" name="career-type" type="radio" value="back-end" class="input-radio"  /> Back-end Developer 
+     </label> 
+     <label for="full-stack">
+       <input id="full-stack" name="career-type" type="radio" value="full-stack" class="input-radio" /> Full-stack Developer</label>
+     </label> 
+     <label for="web-developer">
+      <input id="web-developer" name="career-type" type="radio" value="database-administration" class="input-radio" /> Database Adminitrator</label>
+    </label> 
+    <label for="database-administration">
+      <input id="database-administration" name="career-type" type="radio" value="full-stack" class="input-radio" /> Web Developer</label>
+    </label> 
+     </div>
+     <div class="form-group">
+       <p class="descriptive"> Which certifications are you interested in pursuing? (Select all that apply) </p>   
+       <label for="html">
+       <input id="html" name="html" type="checkbox" value="html" class="input-checkbox" />HTML5
+       </label>
+     <label for="css">
+       <input id="css" name="css" type="checkbox" value="css" class="input-checkbox"  />CSS
+       </label>
+     <label for="java">
+       <input id="java" name="java" type="checkbox" value="java" class="input-checkbox"  />Java Script
+       </label>
+     <label for="python">
+       <input id="python" name="python" type="checkbox" value="python" class="input-checkbox" />Python
+       </label>
+     <label for="info">
+       <input id="info" name="info" type="checkbox" value="info" class="input-checkbox" />Information Security
+       </label> 
+     <label for="data">
+       <input id="data" name="data" type="checkbox" value="data" class="input-checkbox"/>Data Analysis
+       </label> 
+       <label for="data">
+        <input id="data" name="nodejs" type="checkbox" value="nodejs" class="input-checkbox"/>Node.JS
+        </label> 
+        <label for="data">
+          <input id="react" name="react" type="checkbox" value="react" class="input-checkbox"/>React JS
+          </label>  
+       </div>
+     <div class="form-group">
+      <label for="details">Tell us about your experience:
+          <textarea id="details" name="details" rows="6" cols="30" class="input-textarea" placeholder="I have completed projects using..."></textarea>
+        </label> 
+     <input id="submit" type="submit" value="Submit" class="submit-button" />
+      </div>
+     </form>
+    </body>
+  </html>
